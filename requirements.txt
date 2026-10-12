@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.24
+statsmodels>=0.14
+pmdarima>=2.0
+prophet>=1.1
+matplotlib>=3.7
+pytest>=7.0

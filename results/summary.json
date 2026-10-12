@@ -1,0 +1,494 @@
+{
+  "best_model_per_country": {
+    "Australia": "Holt-Winters",
+    "Brazil": "SARIMAX",
+    "India": "SARIMA",
+    "South Korea": "SARIMA",
+    "United Kingdom": "Seasonal-Naive",
+    "United States": "SARIMAX"
+  },
+  "overall_ranking": [
+    {
+      "model": "Ensemble",
+      "nRMSE": 0.404,
+      "MAPE": 36.589,
+      "nRMSE_improvement_vs_naive_%": 24.954
+    },
+    {
+      "model": "SARIMA",
+      "nRMSE": 0.406,
+      "MAPE": 36.732,
+      "nRMSE_improvement_vs_naive_%": 24.638
+    },
+    {
+      "model": "Holt-Winters",
+      "nRMSE": 0.407,
+      "MAPE": 33.964,
+      "nRMSE_improvement_vs_naive_%": 24.496
+    },
+    {
+      "model": "SARIMAX",
+      "nRMSE": 0.475,
+      "MAPE": 43.846,
+      "nRMSE_improvement_vs_naive_%": 11.863
+    },
+    {
+      "model": "Naive",
+      "nRMSE": 0.539,
+      "MAPE": 53.89,
+      "nRMSE_improvement_vs_naive_%": 0.0
+    },
+    {
+      "model": "ARIMA",
+      "nRMSE": 0.628,
+      "MAPE": 61.055,
+      "nRMSE_improvement_vs_naive_%": -16.612
+    },
+    {
+      "model": "Seasonal-Naive",
+      "nRMSE": 0.738,
+      "MAPE": 78.624,
+      "nRMSE_improvement_vs_naive_%": -36.865
+    },
+    {
+      "model": "Prophet",
+      "nRMSE": 2.131,
+      "MAPE": 245.65,
+      "nRMSE_improvement_vs_naive_%": -295.309
+    }
+  ],
+  "per_country_model": [
+    {
+      "country": "Australia",
+      "model": "ARIMA",
+      "RMSE": 362.589,
+      "MAE": 312.966,
+      "MSE": 189798.236,
+      "MAPE": 42.691,
+      "nRMSE": 0.454
+    },
+    {
+      "country": "Australia",
+      "model": "Ensemble",
+      "RMSE": 337.179,
+      "MAE": 288.293,
+      "MSE": 169281.365,
+      "MAPE": 50.023,
+      "nRMSE": 0.521
+    },
+    {
+      "country": "Australia",
+      "model": "Holt-Winters",
+      "RMSE": 308.728,
+      "MAE": 261.733,
+      "MSE": 168459.668,
+      "MAPE": 36.175,
+      "nRMSE": 0.393
+    },
+    {
+      "country": "Australia",
+      "model": "Naive",
+      "RMSE": 315.984,
+      "MAE": 266.872,
+      "MSE": 143788.383,
+      "MAPE": 36.107,
+      "nRMSE": 0.394
+    },
+    {
+      "country": "Australia",
+      "model": "Prophet",
+      "RMSE": 1260.329,
+      "MAE": 1187.93,
+      "MSE": 3870977.948,
+      "MAPE": 102.641,
+      "nRMSE": 1.098
+    },
+    {
+      "country": "Australia",
+      "model": "SARIMA",
+      "RMSE": 347.238,
+      "MAE": 297.016,
+      "MSE": 171692.282,
+      "MAPE": 51.273,
+      "nRMSE": 0.535
+    },
+    {
+      "country": "Australia",
+      "model": "SARIMAX",
+      "RMSE": 334.257,
+      "MAE": 286.022,
+      "MSE": 168955.119,
+      "MAPE": 49.807,
+      "nRMSE": 0.518
+    },
+    {
+      "country": "Australia",
+      "model": "Seasonal-Naive",
+      "RMSE": 407.653,
+      "MAE": 354.311,
+      "MSE": 203915.37,
+      "MAPE": 49.095,
+      "nRMSE": 0.527
+    },
+    {
+      "country": "Brazil",
+      "model": "ARIMA",
+      "RMSE": 76.947,
+      "MAE": 65.697,
+      "MSE": 7304.765,
+      "MAPE": 47.154,
+      "nRMSE": 0.51
+    },
+    {
+      "country": "Brazil",
+      "model": "Ensemble",
+      "RMSE": 39.293,
+      "MAE": 31.985,
+      "MSE": 1774.885,
+      "MAPE": 26.694,
+      "nRMSE": 0.291
+    },
+    {
+      "country": "Brazil",
+      "model": "Holt-Winters",
+      "RMSE": 52.921,
+      "MAE": 43.788,
+      "MSE": 3382.12,
+      "MAPE": 31.936,
+      "nRMSE": 0.358
+    },
+    {
+      "country": "Brazil",
+      "model": "Naive",
+      "RMSE": 76.947,
+      "MAE": 65.697,
+      "MSE": 7304.765,
+      "MAPE": 47.154,
+      "nRMSE": 0.51
+    },
+    {
+      "country": "Brazil",
+      "model": "Prophet",
+      "RMSE": 289.033,
+      "MAE": 269.698,
+      "MSE": 168310.42,
+      "MAPE": 195.176,
+      "nRMSE": 1.844
+    },
+    {
+      "country": "Brazil",
+      "model": "SARIMA",
+      "RMSE": 39.239,
+      "MAE": 32.035,
+      "MSE": 1771.594,
+      "MAPE": 26.743,
+      "nRMSE": 0.291
+    },
+    {
+      "country": "Brazil",
+      "model": "SARIMAX",
+      "RMSE": 39.204,
+      "MAE": 31.901,
+      "MSE": 1762.72,
+      "MAPE": 26.685,
+      "nRMSE": 0.291
+    },
+    {
+      "country": "Brazil",
+      "model": "Seasonal-Naive",
+      "RMSE": 118.31,
+      "MAE": 109.054,
+      "MSE": 21031.219,
+      "MAPE": 70.157,
+      "nRMSE": 0.715
+    },
+    {
+      "country": "India",
+      "model": "ARIMA",
+      "RMSE": 3.369,
+      "MAE": 2.915,
+      "MSE": 16.329,
+      "MAPE": 120.92,
+      "nRMSE": 0.971
+    },
+    {
+      "country": "India",
+      "model": "Ensemble",
+      "RMSE": 1.547,
+      "MAE": 1.265,
+      "MSE": 4.291,
+      "MAPE": 83.394,
+      "nRMSE": 0.826
+    },
+    {
+      "country": "India",
+      "model": "Holt-Winters",
+      "RMSE": 1.557,
+      "MAE": 1.252,
+      "MSE": 4.633,
+      "MAPE": 61.035,
+      "nRMSE": 0.659
+    },
+    {
+      "country": "India",
+      "model": "Naive",
+      "RMSE": 3.369,
+      "MAE": 2.915,
+      "MSE": 16.329,
+      "MAPE": 120.92,
+      "nRMSE": 0.971
+    },
+    {
+      "country": "India",
+      "model": "Prophet",
+      "RMSE": 14.465,
+      "MAE": 14.092,
+      "MSE": 368.791,
+      "MAPE": 518.998,
+      "nRMSE": 3.744
+    },
+    {
+      "country": "India",
+      "model": "SARIMA",
+      "RMSE": 1.534,
+      "MAE": 1.252,
+      "MSE": 4.208,
+      "MAPE": 82.915,
+      "nRMSE": 0.823
+    },
+    {
+      "country": "India",
+      "model": "SARIMAX",
+      "RMSE": 1.626,
+      "MAE": 1.33,
+      "MSE": 4.373,
+      "MAPE": 128.183,
+      "nRMSE": 1.264
+    },
+    {
+      "country": "India",
+      "model": "Seasonal-Naive",
+      "RMSE": 5.404,
+      "MAE": 4.938,
+      "MSE": 53.359,
+      "MAPE": 192.074,
+      "nRMSE": 1.492
+    },
+    {
+      "country": "South Korea",
+      "model": "ARIMA",
+      "RMSE": 2637.217,
+      "MAE": 1873.048,
+      "MSE": 19825572.429,
+      "MAPE": 89.353,
+      "nRMSE": 0.985
+    },
+    {
+      "country": "South Korea",
+      "model": "Ensemble",
+      "RMSE": 246.287,
+      "MAE": 193.125,
+      "MSE": 108053.657,
+      "MAPE": 12.364,
+      "nRMSE": 0.125
+    },
+    {
+      "country": "South Korea",
+      "model": "Holt-Winters",
+      "RMSE": 1361.205,
+      "MAE": 951.656,
+      "MSE": 6331245.667,
+      "MAPE": 24.822,
+      "nRMSE": 0.334
+    },
+    {
+      "country": "South Korea",
+      "model": "Naive",
+      "RMSE": 1067.971,
+      "MAE": 912.959,
+      "MSE": 2528147.749,
+      "MAPE": 57.145,
+      "nRMSE": 0.556
+    },
+    {
+      "country": "South Korea",
+      "model": "Prophet",
+      "RMSE": 1761.95,
+      "MAE": 1666.513,
+      "MSE": 5669540.639,
+      "MAPE": 187.064,
+      "nRMSE": 1.75
+    },
+    {
+      "country": "South Korea",
+      "model": "SARIMA",
+      "RMSE": 245.726,
+      "MAE": 192.407,
+      "MSE": 107791.266,
+      "MAPE": 12.277,
+      "nRMSE": 0.125
+    },
+    {
+      "country": "South Korea",
+      "model": "SARIMAX",
+      "RMSE": 249.626,
+      "MAE": 195.802,
+      "MSE": 108934.474,
+      "MAPE": 12.353,
+      "nRMSE": 0.126
+    },
+    {
+      "country": "South Korea",
+      "model": "Seasonal-Naive",
+      "RMSE": 1318.293,
+      "MAE": 1198.037,
+      "MSE": 3876914.844,
+      "MAPE": 77.735,
+      "nRMSE": 0.74
+    },
+    {
+      "country": "United Kingdom",
+      "model": "ARIMA",
+      "RMSE": 160.999,
+      "MAE": 124.6,
+      "MSE": 59743.755,
+      "MAPE": 30.925,
+      "nRMSE": 0.486
+    },
+    {
+      "country": "United Kingdom",
+      "model": "Ensemble",
+      "RMSE": 177.902,
+      "MAE": 141.023,
+      "MSE": 79355.452,
+      "MAPE": 32.511,
+      "nRMSE": 0.496
+    },
+    {
+      "country": "United Kingdom",
+      "model": "Holt-Winters",
+      "RMSE": 187.871,
+      "MAE": 151.091,
+      "MSE": 89612.07,
+      "MAPE": 34.405,
+      "nRMSE": 0.516
+    },
+    {
+      "country": "United Kingdom",
+      "model": "Naive",
+      "RMSE": 153.149,
+      "MAE": 117.376,
+      "MSE": 57955.425,
+      "MAPE": 26.729,
+      "nRMSE": 0.437
+    },
+    {
+      "country": "United Kingdom",
+      "model": "Prophet",
+      "RMSE": 221.397,
+      "MAE": 202.51,
+      "MSE": 115425.01,
+      "MAPE": 72.754,
+      "nRMSE": 0.762
+    },
+    {
+      "country": "United Kingdom",
+      "model": "SARIMA",
+      "RMSE": 177.519,
+      "MAE": 140.756,
+      "MSE": 78908.49,
+      "MAPE": 32.546,
+      "nRMSE": 0.496
+    },
+    {
+      "country": "United Kingdom",
+      "model": "SARIMAX",
+      "RMSE": 176.408,
+      "MAE": 139.797,
+      "MSE": 79031.992,
+      "MAPE": 31.846,
+      "nRMSE": 0.487
+    },
+    {
+      "country": "United Kingdom",
+      "model": "Seasonal-Naive",
+      "RMSE": 137.412,
+      "MAE": 111.06,
+      "MSE": 44903.936,
+      "MAPE": 28.8,
+      "nRMSE": 0.416
+    },
+    {
+      "country": "United States",
+      "model": "ARIMA",
+      "RMSE": 57.729,
+      "MAE": 48.712,
+      "MSE": 3885.061,
+      "MAPE": 35.284,
+      "nRMSE": 0.365
+    },
+    {
+      "country": "United States",
+      "model": "Ensemble",
+      "RMSE": 33.698,
+      "MAE": 28.336,
+      "MSE": 1405.136,
+      "MAPE": 14.548,
+      "nRMSE": 0.167
+    },
+    {
+      "country": "United States",
+      "model": "Holt-Winters",
+      "RMSE": 34.659,
+      "MAE": 29.184,
+      "MSE": 1434.466,
+      "MAPE": 15.411,
+      "nRMSE": 0.182
+    },
+    {
+      "country": "United States",
+      "model": "Naive",
+      "RMSE": 57.729,
+      "MAE": 48.712,
+      "MSE": 3885.061,
+      "MAPE": 35.284,
+      "nRMSE": 0.365
+    },
+    {
+      "country": "United States",
+      "model": "Prophet",
+      "RMSE": 462.623,
+      "MAE": 454.009,
+      "MSE": 610275.519,
+      "MAPE": 397.268,
+      "nRMSE": 3.585
+    },
+    {
+      "country": "United States",
+      "model": "SARIMA",
+      "RMSE": 34.029,
+      "MAE": 28.679,
+      "MSE": 1431.096,
+      "MAPE": 14.639,
+      "nRMSE": 0.167
+    },
+    {
+      "country": "United States",
+      "model": "SARIMAX",
+      "RMSE": 33.153,
+      "MAE": 27.798,
+      "MSE": 1347.151,
+      "MAPE": 14.2,
+      "nRMSE": 0.165
+    },
+    {
+      "country": "United States",
+      "model": "Seasonal-Naive",
+      "RMSE": 78.665,
+      "MAE": 70.748,
+      "MSE": 8751.642,
+      "MAPE": 53.881,
+      "nRMSE": 0.536
+    }
+  ]
+}
