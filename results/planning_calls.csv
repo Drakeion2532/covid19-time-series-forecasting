@@ -1,0 +1,277 @@
+country,origin,actual,sarima,no_change,in_80pct_interval_share,day30_in_interval
+India,2021-03-01,rising,rising,flat,0.6666666666666666,False
+India,2021-03-15,rising,rising,flat,0.2,False
+India,2021-03-29,rising,rising,flat,1.0,True
+India,2021-04-12,rising,rising,flat,0.9,False
+India,2021-04-26,rising,rising,flat,0.2,False
+India,2021-05-10,falling,flat,flat,0.3333333333333333,False
+India,2021-05-24,falling,falling,flat,0.9333333333333333,True
+India,2021-06-07,falling,falling,flat,1.0,True
+India,2021-06-21,falling,falling,flat,1.0,True
+India,2021-07-05,falling,falling,flat,1.0,True
+India,2021-07-19,flat,falling,flat,1.0,True
+India,2021-08-02,flat,rising,flat,1.0,True
+India,2021-08-16,flat,falling,flat,1.0,True
+India,2021-08-30,flat,rising,flat,0.5333333333333333,False
+India,2021-09-13,falling,falling,flat,1.0,True
+India,2021-09-27,falling,flat,flat,0.7666666666666667,True
+India,2021-10-11,falling,falling,flat,1.0,True
+India,2021-10-25,falling,flat,flat,1.0,True
+India,2021-11-08,falling,falling,flat,1.0,True
+India,2021-11-22,falling,falling,flat,1.0,True
+India,2021-12-06,flat,flat,flat,1.0,True
+India,2021-12-20,rising,falling,flat,0.43333333333333335,False
+India,2022-01-03,rising,rising,flat,0.3,True
+India,2022-01-17,flat,rising,flat,0.9,False
+India,2022-01-31,falling,falling,flat,0.4,False
+India,2022-02-14,falling,falling,flat,1.0,True
+India,2022-02-28,falling,falling,flat,1.0,True
+India,2022-03-14,falling,falling,flat,1.0,True
+India,2022-03-28,falling,falling,flat,1.0,True
+India,2022-04-11,rising,flat,flat,1.0,True
+India,2022-04-25,rising,rising,flat,1.0,True
+India,2022-05-09,flat,flat,flat,1.0,True
+India,2022-05-23,rising,falling,flat,0.9666666666666667,True
+India,2022-06-06,rising,rising,flat,1.0,True
+India,2022-06-20,rising,rising,flat,1.0,True
+India,2022-07-04,rising,rising,flat,1.0,True
+India,2022-07-18,flat,flat,flat,1.0,True
+India,2022-08-01,falling,flat,flat,1.0,True
+India,2022-08-15,falling,falling,flat,1.0,True
+India,2022-08-29,falling,falling,flat,1.0,True
+India,2022-09-12,falling,falling,flat,1.0,True
+India,2022-09-26,falling,falling,flat,1.0,True
+India,2022-10-10,falling,falling,flat,1.0,True
+India,2022-10-24,falling,falling,flat,1.0,True
+India,2022-11-07,flat,flat,flat,1.0,True
+India,2022-11-21,flat,flat,flat,1.0,True
+United States,2021-03-01,flat,rising,flat,1.0,True
+United States,2021-03-15,flat,flat,flat,1.0,True
+United States,2021-03-29,flat,flat,flat,1.0,True
+United States,2021-04-12,falling,flat,flat,1.0,True
+United States,2021-04-26,falling,falling,flat,0.9333333333333333,True
+United States,2021-05-10,falling,falling,flat,0.8,False
+United States,2021-05-24,falling,falling,flat,0.9666666666666667,True
+United States,2021-06-07,falling,falling,flat,0.36666666666666664,False
+United States,2021-06-21,rising,falling,flat,0.3333333333333333,False
+United States,2021-07-05,rising,rising,flat,0.2,False
+United States,2021-07-19,rising,flat,flat,0.2,False
+United States,2021-08-02,rising,rising,flat,1.0,True
+United States,2021-08-16,rising,rising,flat,1.0,True
+United States,2021-08-30,flat,rising,flat,1.0,True
+United States,2021-09-13,falling,flat,flat,1.0,True
+United States,2021-09-27,falling,falling,flat,1.0,True
+United States,2021-10-11,falling,falling,flat,1.0,True
+United States,2021-10-25,flat,falling,flat,1.0,True
+United States,2021-11-08,rising,flat,flat,1.0,True
+United States,2021-11-22,rising,rising,flat,1.0,True
+United States,2021-12-06,rising,rising,flat,0.9,False
+United States,2021-12-20,rising,flat,flat,0.26666666666666666,False
+United States,2022-01-03,rising,rising,flat,1.0,True
+United States,2022-01-17,falling,rising,flat,0.36666666666666664,False
+United States,2022-01-31,falling,falling,flat,0.23333333333333334,False
+United States,2022-02-14,falling,falling,flat,1.0,True
+United States,2022-02-28,falling,falling,flat,1.0,True
+United States,2022-03-14,falling,falling,flat,1.0,True
+United States,2022-03-28,rising,falling,flat,1.0,True
+United States,2022-04-11,rising,flat,flat,1.0,True
+United States,2022-04-25,rising,rising,flat,1.0,True
+United States,2022-05-09,rising,rising,flat,1.0,True
+United States,2022-05-23,flat,rising,flat,1.0,True
+United States,2022-06-06,flat,flat,flat,1.0,True
+United States,2022-06-20,flat,flat,flat,1.0,True
+United States,2022-07-04,rising,flat,flat,1.0,True
+United States,2022-07-18,flat,rising,flat,1.0,True
+United States,2022-08-01,falling,flat,flat,0.9666666666666667,True
+United States,2022-08-15,falling,falling,flat,1.0,True
+United States,2022-08-29,falling,flat,flat,1.0,True
+United States,2022-09-12,falling,falling,flat,1.0,True
+United States,2022-09-26,falling,falling,flat,1.0,True
+United States,2022-10-10,flat,falling,flat,1.0,True
+United States,2022-10-24,flat,rising,flat,0.9666666666666667,True
+United States,2022-11-07,flat,flat,flat,1.0,True
+United States,2022-11-21,rising,flat,flat,1.0,True
+Australia,2021-03-01,flat,flat,flat,1.0,True
+Australia,2021-03-15,flat,flat,flat,1.0,True
+Australia,2021-03-29,flat,flat,flat,1.0,True
+Australia,2021-04-12,flat,flat,flat,0.9,True
+Australia,2021-04-26,flat,rising,flat,1.0,True
+Australia,2021-05-10,rising,flat,flat,0.9,False
+Australia,2021-05-24,flat,flat,flat,0.7,True
+Australia,2021-06-07,rising,rising,flat,0.2,False
+Australia,2021-06-21,rising,flat,flat,0.26666666666666666,False
+Australia,2021-07-05,rising,rising,flat,0.23333333333333334,False
+Australia,2021-07-19,rising,rising,flat,0.8,False
+Australia,2021-08-02,rising,rising,flat,0.5,False
+Australia,2021-08-16,rising,rising,flat,0.5333333333333333,True
+Australia,2021-08-30,rising,rising,flat,1.0,True
+Australia,2021-09-13,rising,rising,flat,1.0,True
+Australia,2021-09-27,flat,rising,flat,1.0,True
+Australia,2021-10-11,falling,rising,flat,0.7666666666666667,False
+Australia,2021-10-25,falling,flat,flat,0.9333333333333333,True
+Australia,2021-11-08,flat,flat,flat,1.0,True
+Australia,2021-11-22,rising,flat,flat,0.9,False
+Australia,2021-12-06,rising,flat,flat,0.43333333333333335,False
+Australia,2021-12-20,rising,rising,flat,0.2,False
+Australia,2022-01-03,rising,rising,flat,0.43333333333333335,False
+Australia,2022-01-17,falling,falling,flat,1.0,True
+Australia,2022-01-31,falling,falling,flat,1.0,True
+Australia,2022-02-14,flat,falling,flat,1.0,True
+Australia,2022-02-28,rising,flat,flat,1.0,True
+Australia,2022-03-14,rising,rising,flat,1.0,True
+Australia,2022-03-28,flat,rising,flat,1.0,True
+Australia,2022-04-11,falling,flat,flat,1.0,True
+Australia,2022-04-25,flat,flat,flat,1.0,True
+Australia,2022-05-09,flat,rising,flat,1.0,True
+Australia,2022-05-23,falling,falling,flat,1.0,True
+Australia,2022-06-06,falling,falling,flat,0.9,False
+Australia,2022-06-20,rising,flat,flat,0.7666666666666667,True
+Australia,2022-07-04,rising,falling,flat,0.2,False
+Australia,2022-07-18,flat,falling,flat,1.0,True
+Australia,2022-08-01,falling,falling,flat,1.0,True
+Australia,2022-08-15,falling,flat,flat,1.0,True
+Australia,2022-08-29,falling,flat,flat,1.0,True
+Australia,2022-09-12,falling,flat,flat,1.0,True
+Australia,2022-09-26,falling,flat,flat,1.0,True
+Australia,2022-10-10,flat,flat,flat,1.0,True
+Australia,2022-10-24,rising,flat,flat,1.0,True
+Australia,2022-11-07,rising,flat,flat,1.0,True
+Australia,2022-11-21,rising,flat,flat,1.0,True
+South Korea,2021-03-01,flat,falling,flat,1.0,True
+South Korea,2021-03-15,rising,flat,flat,1.0,True
+South Korea,2021-03-29,rising,flat,flat,1.0,True
+South Korea,2021-04-12,flat,rising,flat,1.0,True
+South Korea,2021-04-26,flat,flat,flat,1.0,True
+South Korea,2021-05-10,flat,flat,flat,1.0,True
+South Korea,2021-05-24,falling,flat,flat,1.0,True
+South Korea,2021-06-07,flat,flat,flat,1.0,True
+South Korea,2021-06-21,rising,flat,flat,0.6666666666666666,False
+South Korea,2021-07-05,rising,rising,flat,0.8333333333333334,True
+South Korea,2021-07-19,rising,flat,flat,1.0,True
+South Korea,2021-08-02,flat,flat,flat,1.0,True
+South Korea,2021-08-16,flat,flat,flat,1.0,True
+South Korea,2021-08-30,flat,flat,flat,1.0,True
+South Korea,2021-09-13,rising,flat,flat,1.0,True
+South Korea,2021-09-27,falling,rising,flat,0.7,False
+South Korea,2021-10-11,flat,falling,flat,1.0,True
+South Korea,2021-10-25,rising,flat,flat,0.3,False
+South Korea,2021-11-08,rising,rising,flat,1.0,True
+South Korea,2021-11-22,rising,rising,flat,0.6666666666666666,False
+South Korea,2021-12-06,rising,rising,flat,0.9666666666666667,True
+South Korea,2021-12-20,falling,flat,flat,0.5666666666666667,True
+South Korea,2022-01-03,rising,falling,flat,0.6666666666666666,False
+South Korea,2022-01-17,rising,flat,flat,0.2,False
+South Korea,2022-01-31,rising,rising,flat,0.6,False
+South Korea,2022-02-14,rising,rising,flat,0.7666666666666667,False
+South Korea,2022-02-28,rising,rising,flat,1.0,True
+South Korea,2022-03-14,flat,rising,flat,0.8333333333333334,False
+South Korea,2022-03-28,falling,falling,flat,0.9,False
+South Korea,2022-04-11,falling,falling,flat,1.0,True
+South Korea,2022-04-25,falling,falling,flat,1.0,True
+South Korea,2022-05-09,falling,falling,flat,1.0,True
+South Korea,2022-05-23,falling,falling,flat,1.0,True
+South Korea,2022-06-06,falling,falling,flat,1.0,True
+South Korea,2022-06-20,rising,falling,flat,0.6666666666666666,False
+South Korea,2022-07-04,rising,rising,flat,0.2,False
+South Korea,2022-07-18,rising,rising,flat,1.0,True
+South Korea,2022-08-01,rising,rising,flat,1.0,True
+South Korea,2022-08-15,falling,rising,flat,1.0,True
+South Korea,2022-08-29,falling,falling,flat,1.0,True
+South Korea,2022-09-12,falling,falling,flat,1.0,True
+South Korea,2022-09-26,falling,falling,flat,0.4666666666666667,False
+South Korea,2022-10-10,rising,falling,flat,0.6333333333333333,False
+South Korea,2022-10-24,rising,rising,flat,1.0,True
+South Korea,2022-11-07,rising,rising,flat,1.0,True
+South Korea,2022-11-21,flat,flat,flat,1.0,True
+United Kingdom,2021-03-01,falling,falling,flat,1.0,True
+United Kingdom,2021-03-15,falling,flat,flat,1.0,True
+United Kingdom,2021-03-29,falling,flat,flat,0.6,True
+United Kingdom,2021-04-12,falling,falling,flat,1.0,True
+United Kingdom,2021-04-26,flat,flat,flat,1.0,True
+United Kingdom,2021-05-10,rising,flat,flat,0.9666666666666667,True
+United Kingdom,2021-05-24,rising,flat,flat,0.5,False
+United Kingdom,2021-06-07,rising,rising,flat,0.9666666666666667,True
+United Kingdom,2021-06-21,rising,rising,flat,0.6666666666666666,False
+United Kingdom,2021-07-05,rising,rising,flat,0.9333333333333333,True
+United Kingdom,2021-07-19,flat,rising,flat,0.2,False
+United Kingdom,2021-08-02,flat,falling,flat,0.9666666666666667,True
+United Kingdom,2021-08-16,rising,flat,flat,1.0,True
+United Kingdom,2021-08-30,flat,flat,flat,1.0,True
+United Kingdom,2021-09-13,flat,flat,flat,1.0,True
+United Kingdom,2021-09-27,rising,rising,flat,1.0,True
+United Kingdom,2021-10-11,flat,flat,flat,1.0,True
+United Kingdom,2021-10-25,flat,flat,flat,1.0,True
+United Kingdom,2021-11-08,flat,falling,flat,1.0,True
+United Kingdom,2021-11-22,rising,rising,flat,1.0,True
+United Kingdom,2021-12-06,rising,rising,flat,0.6,False
+United Kingdom,2021-12-20,rising,rising,flat,1.0,True
+United Kingdom,2022-01-03,falling,rising,flat,0.4,False
+United Kingdom,2022-01-17,falling,falling,flat,0.5,True
+United Kingdom,2022-01-31,falling,flat,flat,0.6666666666666666,False
+United Kingdom,2022-02-14,falling,falling,flat,1.0,True
+United Kingdom,2022-02-28,rising,falling,flat,0.43333333333333335,False
+United Kingdom,2022-03-14,rising,rising,flat,0.9666666666666667,True
+United Kingdom,2022-03-28,falling,flat,flat,0.43333333333333335,False
+United Kingdom,2022-04-11,falling,falling,flat,1.0,True
+United Kingdom,2022-04-25,falling,falling,flat,1.0,True
+United Kingdom,2022-05-09,falling,falling,flat,1.0,True
+United Kingdom,2022-05-23,rising,falling,flat,1.0,True
+United Kingdom,2022-06-06,rising,flat,flat,0.3333333333333333,False
+United Kingdom,2022-06-20,rising,rising,flat,1.0,True
+United Kingdom,2022-07-04,falling,rising,flat,1.0,True
+United Kingdom,2022-07-18,falling,falling,flat,0.5666666666666667,False
+United Kingdom,2022-08-01,falling,falling,flat,1.0,True
+United Kingdom,2022-08-15,falling,falling,flat,1.0,True
+United Kingdom,2022-08-29,flat,falling,flat,1.0,True
+United Kingdom,2022-09-12,rising,flat,flat,1.0,True
+United Kingdom,2022-09-26,rising,rising,flat,1.0,True
+United Kingdom,2022-10-10,falling,rising,flat,0.7666666666666667,False
+United Kingdom,2022-10-24,falling,falling,flat,0.9666666666666667,True
+United Kingdom,2022-11-07,falling,falling,flat,1.0,True
+United Kingdom,2022-11-21,rising,flat,flat,1.0,True
+Brazil,2021-03-01,rising,rising,flat,1.0,True
+Brazil,2021-03-15,flat,flat,flat,1.0,True
+Brazil,2021-03-29,flat,flat,flat,1.0,True
+Brazil,2021-04-12,flat,flat,flat,1.0,True
+Brazil,2021-04-26,flat,flat,flat,1.0,True
+Brazil,2021-05-10,flat,flat,flat,1.0,True
+Brazil,2021-05-24,flat,flat,flat,1.0,True
+Brazil,2021-06-07,flat,flat,flat,1.0,True
+Brazil,2021-06-21,falling,flat,flat,0.43333333333333335,False
+Brazil,2021-07-05,falling,falling,flat,0.8,False
+Brazil,2021-07-19,falling,flat,flat,1.0,True
+Brazil,2021-08-02,falling,flat,flat,1.0,True
+Brazil,2021-08-16,falling,flat,flat,0.8666666666666667,False
+Brazil,2021-08-30,flat,flat,flat,0.5333333333333333,True
+Brazil,2021-09-13,falling,falling,flat,0.7666666666666667,True
+Brazil,2021-09-27,falling,rising,flat,0.2,False
+Brazil,2021-10-11,falling,flat,flat,0.6666666666666666,False
+Brazil,2021-10-25,flat,flat,flat,1.0,True
+Brazil,2021-11-08,falling,flat,flat,1.0,True
+Brazil,2021-11-22,falling,flat,flat,0.9,False
+Brazil,2021-12-06,falling,flat,flat,0.5333333333333333,True
+Brazil,2021-12-20,rising,falling,flat,0.43333333333333335,False
+Brazil,2022-01-03,rising,rising,flat,0.2,False
+Brazil,2022-01-17,rising,rising,flat,1.0,True
+Brazil,2022-01-31,falling,rising,flat,0.9,False
+Brazil,2022-02-14,falling,falling,flat,1.0,True
+Brazil,2022-02-28,falling,falling,flat,1.0,True
+Brazil,2022-03-14,falling,falling,flat,1.0,True
+Brazil,2022-03-28,falling,falling,flat,1.0,True
+Brazil,2022-04-11,falling,falling,flat,1.0,True
+Brazil,2022-04-25,flat,falling,flat,1.0,True
+Brazil,2022-05-09,rising,rising,flat,1.0,True
+Brazil,2022-05-23,rising,falling,flat,0.5333333333333333,True
+Brazil,2022-06-06,rising,rising,flat,1.0,True
+Brazil,2022-06-20,rising,flat,flat,1.0,True
+Brazil,2022-07-04,falling,rising,flat,1.0,True
+Brazil,2022-07-18,falling,flat,flat,0.9333333333333333,True
+Brazil,2022-08-01,falling,flat,flat,1.0,True
+Brazil,2022-08-15,falling,falling,flat,1.0,True
+Brazil,2022-08-29,falling,flat,flat,1.0,True
+Brazil,2022-09-12,falling,falling,flat,1.0,True
+Brazil,2022-09-26,falling,falling,flat,1.0,True
+Brazil,2022-10-10,falling,falling,flat,1.0,True
+Brazil,2022-10-24,rising,flat,flat,1.0,True
+Brazil,2022-11-07,rising,falling,flat,0.2,False
+Brazil,2022-11-21,rising,rising,flat,1.0,True

@@ -1,0 +1,24 @@
+{
+  "forecast_dates": 46,
+  "countries": 6,
+  "calls": 276,
+  "real_trend_mix": {
+    "falling": 110,
+    "rising": 100,
+    "flat": 66
+  },
+  "sarima": {
+    "accuracy": 0.594,
+    "rises_warned_about": 0.56,
+    "rising_calls_that_were_right": 0.691,
+    "rising_calls": 81
+  },
+  "no_change": {
+    "accuracy": 0.239,
+    "rises_warned_about": 0.0,
+    "rising_calls_that_were_right": null,
+    "rising_calls": 0
+  },
+  "interval_coverage_all_days": 0.864,
+  "interval_coverage_day30": 0.761
+}

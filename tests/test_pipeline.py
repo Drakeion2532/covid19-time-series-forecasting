@@ -30,3 +30,29 @@ def test_fast_models_return_horizon_and_no_negatives():
     for name in ["Naive", "Seasonal-Naive", "SARIMA", "Holt-Winters"]:
         p = MODELS[name](d, 30)
         assert len(p) == 30 and np.all(p >= 0) and np.all(np.isfinite(p)), name
+
+
+# ---------------------------------------------------------------- planning brief
+import numpy as np
+import pandas as pd
+
+
+def test_trend_calls():
+    from covid_forecast.planning import trend_call
+    w = np.full(7, 100.0)
+    assert trend_call(w, w * 1.3) == "rising"
+    assert trend_call(w, w * 0.7) == "falling"
+    assert trend_call(w, w * 1.1) == "flat"
+    assert trend_call(np.full(7, 0.1), np.full(7, 0.3)) == "flat"     # near zero: % change is not a wave
+
+
+def test_backtest_calls_and_scoring(monkeypatch):
+    import covid_forecast.planning as pl
+    from covid_forecast.data import all_countries
+    monkeypatch.setattr(pl, "ORIGINS", pd.date_range("2022-01-03", periods=3, freq="28D"))
+    data = {k: v for k, v in all_countries().items() if k == "India"}
+    bt = pl.backtest_calls(data)
+    assert len(bt) == 3 and set(bt["actual"]) <= {"rising", "falling", "flat"}
+    assert bt["in_80pct_interval_share"].between(0, 1).all()
+    s = pl.score_calls(bt, "sarima")
+    assert 0 <= s["accuracy"] <= 1 and s["rising_calls"] >= 0

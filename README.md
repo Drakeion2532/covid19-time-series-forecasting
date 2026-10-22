@@ -47,6 +47,24 @@ Mean over 6 countries × 4 origins (lower is better). The improvement column is 
 * **The ensemble is the safest choice.** It is never the worst model and is best on average, though only just ahead of SARIMA (0.404 vs 0.406). Its three members were chosen after seeing this backtest, so its lead is slightly optimistic; a stricter test would pick members on 2021 origins and score them on 2022.
 * Full per-country, per-origin numbers are in `results/backtest_all.csv` and `results/summary.json`.
 
+### From forecast to planning decision (`covid_forecast/planning.py`)
+
+A curve of predicted cases is hard to act on. A public-health planner asks: **is a wave coming in the next month, and how far can I trust that call?** `python -m covid_forecast.planning` answers that:
+
+1. **The call:** each 30-day SARIMA forecast becomes **rising** (week 4 at least 25% above the last observed week), **falling** (at least 20% below) or **flat**. Levels under 1 case per million per day are always "flat", because a move from 0.1 to 0.2 isn't a wave.
+2. **The track record:** those calls were backtested from **46 forecast dates** (every 2 weeks, Mar 2021 – Nov 2022) in all six countries, 276 calls in total:
+
+| | SARIMA calls | Always "no change" |
+|---|---|---|
+| Calls that were right | **59%** | 24% |
+| Real rises (≥ 25%) warned about in advance | **56%** | 0% |
+| "Rising" calls that turned out right | **69%** | – |
+
+3. **The interval check:** an 80% range should contain the truth about 80% of the time. Here it did on **86%** of days, and on **76%** of day-30 values. The ranges are honest, if slightly wide early on.
+4. **The brief:** a one-page planning brief per country from the latest data goes to `results/planning_brief.md`, with each call shown next to its track record.
+
+In plain terms: when the model warns of a rise, it's right about 2 times in 3, and it misses roughly 2 rises in 5. That's useful as an early-warning input, not as the only one. The brief says so, and recommends using it alongside hospital and test-positivity data.
+
 ### 30-day projection
 
 `results/forward_forecast_30d.json` holds a 30-day projection beyond the end of the daily data, with 80% prediction intervals.
@@ -85,6 +103,7 @@ covid_forecast/
   models.py     Naive, Seasonal-Naive, ARIMA, SARIMA, SARIMAX, Holt-Winters, Prophet, Ensemble
   evaluate.py   rolling-origin backtest + metrics
   report.py     figures + forward forecast
+  planning.py   trend calls, their backtested track record, interval check, planning brief
 data/raw/       6-country dataset (OWID, CC-BY 4.0)
 results/        metrics, forecasts, figures
 tests/
