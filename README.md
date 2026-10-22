@@ -1,5 +1,7 @@
 # Predicting COVID-19 Trends using Time-Series Models
 
+[![tests](https://github.com/Drakeion2532/covid19-time-series-forecasting/actions/workflows/tests.yml/badge.svg)](https://github.com/Drakeion2532/covid19-time-series-forecasting/actions/workflows/tests.yml)
+
 30-day forecasting of daily COVID-19 cases across **6 countries** (India, United States, Australia, South Korea, United Kingdom, Brazil). The benchmark compares ARIMA, SARIMA, SARIMAX (with policy and vaccination features), Holt-Winters, Prophet and an ensemble against naive baselines, using a rolling-origin backtest.
 
 Reference implementation of the research paper **"Predicting COVID-19 Trends using Time Series Models"**: H. T. Chaudhari, A. G. Jadhav, I. S. Pathare, **S. S. Punde**. The work was done during the research internship at the **University of Nevada, Las Vegas (UNLV)**, Summer 2024.
@@ -30,6 +32,7 @@ Mean over 6 countries × 4 origins (lower is better). The improvement column is 
 | SARIMAX (+ stringency, vaccination) | 0.475 | 43.8% | +11.9% |
 | Naive | 0.539 | 53.9% | – |
 | ARIMA (auto order) | 0.628 | 61.1% | −16.6% |
+| Seasonal-Naive (same day last week) | 0.738 | 78.6% | −36.9% |
 | Prophet | 2.131 | 245.6% | −295% |
 
 **Best model per country (RMSE):** India: SARIMA · South Korea: SARIMA · United States: SARIMAX · Brazil: SARIMAX · Australia: Holt-Winters · United Kingdom: Seasonal-Naive
@@ -38,10 +41,10 @@ Mean over 6 countries × 4 origins (lower is better). The improvement column is 
 
 ### Findings
 
-* **Weekly seasonality matters.** SARIMA beats ARIMA by about 35% nRMSE because reporting follows a 7-day cycle. This matches the paper, where SARIMA was the best model for the United States.
+* **Weekly seasonality matters.** SARIMA beats ARIMA by about 35% nRMSE because reporting follows a 7-day cycle. (In the paper SARIMA was the best model for the United States; in this backtest SARIMAX edges it out there, as described below.)
 * **Exogenous features help where policy was still changing.** SARIMAX wins for the US and Brazil, but by late 2022 most stringency indices were flat, so the extra features added little elsewhere.
 * **Prophet is a poor fit for 30-day epidemic forecasting.** Its piecewise-linear trend extrapolates the slope of the last wave and overshoots badly. This is a known limitation worth knowing before using it in production.
-* **The ensemble is the safest choice.** It is never the worst model and is best on average.
+* **The ensemble is the safest choice.** It is never the worst model and is best on average, though only just ahead of SARIMA (0.404 vs 0.406). Its three members were chosen after seeing this backtest, so its lead is slightly optimistic; a stricter test would pick members on 2021 origins and score them on 2022.
 * Full per-country, per-origin numbers are in `results/backtest_all.csv` and `results/summary.json`.
 
 ### 30-day projection
