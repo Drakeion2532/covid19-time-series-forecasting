@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/covid19-time-series-forecasting · MIT licence · sp2532-3aa25d33ed3e
 """Generates all figures + the 30-day forward forecast used in the README."""
 from __future__ import annotations
 

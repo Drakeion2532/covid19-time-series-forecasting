@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/covid19-time-series-forecasting · MIT licence · sp2532-3aa25d33ed3e
 """Rolling-origin backtest: for each country and each forecast origin, fit
 every model on the preceding `train_days` and score the next `horizon` days.
 Metrics: MSE, RMSE, MAE (as in the paper) + MAPE and normalised RMSE."""

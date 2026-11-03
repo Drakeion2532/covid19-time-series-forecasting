@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/covid19-time-series-forecasting · MIT licence · sp2532-3aa25d33ed3e
 """Forecasting models. Each takes a training frame and a horizon and
 returns a numpy array of `horizon` forecasts on the original scale.
 
