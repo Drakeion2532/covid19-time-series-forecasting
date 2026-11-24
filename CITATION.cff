@@ -9,10 +9,6 @@ authors:
 repository-code: "https://github.com/Drakeion2532/covid19-time-series-forecasting"
 license: MIT
 date-released: "2026-11-03"
-identifiers:
-  - type: other
-    value: "sp2532-3aa25d33ed3e"
-    description: "Project identifier"
 references:
   - type: generic
     title: "Predicting COVID-19 Trends using Time Series Models"

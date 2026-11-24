@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/covid19-time-series-forecasting · MIT licence · sp2532-3aa25d33ed3e
+# Copyright (c) 2026 Shubhan Punde · MIT licence
 """Turn forecasts into what a public-health planner asks: "is a wave coming, and can I trust that?"
 
 A curve of predicted cases is hard to act on. Planners decide things like "open the surge

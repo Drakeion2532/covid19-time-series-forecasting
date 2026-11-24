@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/covid19-time-series-forecasting · MIT licence · sp2532-3aa25d33ed3e
+# Copyright (c) 2026 Shubhan Punde · MIT licence
 """Loading and cleaning – follows the paper's preprocessing:
 outliers detected with IQR / z-score are treated as missing values, then
 filled with forward-fill followed by backward-fill."""
