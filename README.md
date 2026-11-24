@@ -113,7 +113,7 @@ Data: Mathieu, E. et al. *Coronavirus Pandemic (COVID-19)*, Our World in Data (C
 
 ## How this was built
 
-I designed the detection logic, threat model and evaluation, and used AI pair-programming (Claude Code) for implementation. Every number in this README was re-run and checked, and the test suite reproduces the key results.
+This repository re-implements our co-authored paper. I designed the approach, features and evaluation (baselines, data splits and metrics), and used AI pair-programming (Claude Code) for implementation. Every number in this README was re-run and checked, and the test suite reproduces the key results.
 
 ## Licence
 
