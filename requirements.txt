@@ -1,7 +1,8 @@
-pandas>=2.0
-numpy>=1.24
-statsmodels>=0.14
-pmdarima>=2.0
-prophet>=1.1
-matplotlib>=3.7
-pytest>=7.0
+# Versions tested in CI (Python 3.11)
+pandas==3.1.1
+numpy==2.4.6
+statsmodels==0.15.0
+pmdarima==2.1.1
+prophet==1.5.0
+matplotlib==3.11.2
+pytest==9.2.0
